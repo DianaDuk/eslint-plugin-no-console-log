@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-no-console-log",
+  "version": "1.0.0",
+  "description": "Creating eslint-rule project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/no-console-log.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaDuk/eslint-plugin-no-console-log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaDuk/eslint-plugin-no-console-log/issues"
+  },
+  "homepage": "https://github.com/DianaDuk/eslint-plugin-no-console-log#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^8.31.0",
+    "@typescript-eslint/rule-tester": "^8.31.0",
+    "@typescript-eslint/utils": "^8.31.0",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
